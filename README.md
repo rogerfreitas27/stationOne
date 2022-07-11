@@ -82,7 +82,7 @@ INSERT INTO filme VALUES
   
 
 
-- Criação de usuario para acessar o banco de dados(Para testar a api pela imagem docker este passo é fundamental)
+- Criação de usuario para acessar o banco de dados
 ```mysql
 CREATE USER 'stationOne'@'localhost' IDENTIFIED BY 'stationOne';
 
@@ -91,7 +91,7 @@ CREATE USER 'stationOne'@'localhost' IDENTIFIED BY 'stationOne';
 
 
 
-- Dar permissao ao usuario criado para usar banco de dados(Para testar a api pela imagem docker este passo é fundamental)
+- Dar permissao ao usuario criado para usar banco de dados 
 ```mysql
 CREATE USER 'stationOne'@'localhost' IDENTIFIED BY 'stationOne';
 
